@@ -17,6 +17,7 @@
 		2CF91E4A225EF7A000836343 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF91E49225EF7A000836343 /* FeedViewController.swift */; };
 		2CF91E4C225F0CF100836343 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF91E4B225F0CF100836343 /* CameraViewController.swift */; };
 		2CF91E4E226263B000836343 /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF91E4D226263B000836343 /* PosterCell.swift */; };
+		2CF91E50226415D200836343 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF91E4F226415D100836343 /* CommentCell.swift */; };
 		5B5C117D07445AE860106E95 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7ED4F942C31FE647F7D5C4C /* Pods_Parstagram.framework */; };
 		A86F1732C886D0DD7BE1FABA /* Pods_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165E396A880BCCACDCA88F8E /* Pods_ParstagramUITests.framework */; };
 		FC25FB83A6960D6B22C97623 /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D3026098305C9E057AEDDBA /* Pods_ParstagramTests.framework */; };
@@ -58,6 +59,7 @@
 		2CF91E49225EF7A000836343 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		2CF91E4B225F0CF100836343 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		2CF91E4D226263B000836343 /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		2CF91E4F226415D100836343 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		36C5CB82011C6A33701D5EED /* Pods-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramUITests/Pods-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84746CC8447D61C51E28233F /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
 		9100561C1241C559FF75858F /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				2CF91E49225EF7A000836343 /* FeedViewController.swift */,
 				2CF91E4B225F0CF100836343 /* CameraViewController.swift */,
 				2CF91E4D226263B000836343 /* PosterCell.swift */,
+				2CF91E4F226415D100836343 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -348,6 +352,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +416,7 @@
 				2CF91E4C225F0CF100836343 /* CameraViewController.swift in Sources */,
 				2CF91E4A225EF7A000836343 /* FeedViewController.swift in Sources */,
 				2C079A68225C23AC0000408A /* AppDelegate.swift in Sources */,
+				2CF91E50226415D200836343 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
