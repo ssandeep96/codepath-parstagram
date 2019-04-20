@@ -21,6 +21,7 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![](https://github.com/ssandeep96/codepath-parstagram/blob/master/parstagram2.gif)
 
 
