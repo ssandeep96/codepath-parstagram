@@ -75,7 +75,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
          //fake comments
         let comment = PFObject(className: "Comments")
          comment["text"] = text
-         comment["post  "] = selectedPost
+         comment["post"] = selectedPost
          comment["author"] = PFUser.current()
          
          selectedPost.add(comment, forKey: "comments")
